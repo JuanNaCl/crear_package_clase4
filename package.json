@@ -1,0 +1,28 @@
+{
+  "name": "crear_package_clase4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanNaCl/crear_package_clase4.git"
+  },
+  "keywords": [],
+  "author": "JuanNaCl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanNaCl/crear_package_clase4/issues"
+  },
+  "homepage": "https://github.com/JuanNaCl/crear_package_clase4#readme",
+  "description": "Funciones estadisticas y graficas con node js",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.9",
+    "chartjs-node-canvas": "^5.0.0"
+  }
+}
